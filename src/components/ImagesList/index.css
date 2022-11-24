@@ -1,0 +1,13 @@
+.image-item {
+    list-style-type: none;
+    margin: 10px;
+}
+.image-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.image-logo {
+    height: 60px;
+    width: 60px;
+}

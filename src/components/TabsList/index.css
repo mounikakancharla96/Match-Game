@@ -1,0 +1,15 @@
+.tab-items {
+    list-style-type: none;
+}
+.tab-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.active-button {
+    color: #fec653;
+}

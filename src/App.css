@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.images-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-bg.png");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.random-image {
+    height: 250px;
+    width: 400px;
+}
+.tab-lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.images-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  width: 295px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .game-over-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 605px;
+    height: 760px;
+    margin-top: 30px;
+  }
+}
+
+.trophy-image {
+  height: 160px;
+  width: 260px;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .trophy-image {
+    height: 280px;
+    width: 440px;
+  }
+}
+
+.your-score-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-score-name {
+    font-size: 25px;
+  }
+}
+
+.your-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-score {
+    font-size: 54px;
+  }
+}
+
+.play-again-btn {
+  color: #ffffff;
+  background-color: #cf60c8;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .play-again-btn {
+    font-size: 22px;
+    padding: 15px;
+  }
+}
+.reset-btn-image {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .reset-btn-image {
+    height: 25px;
+    width: 25px;
+  }
+}
